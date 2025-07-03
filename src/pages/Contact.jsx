@@ -9,9 +9,6 @@ export default function Contact() {
         <div className="space-y-4">
           <h2 className="text-4xl sm:text-5xl font-bold tracking-tight">Get in Touch</h2>
           <div className="w-16 h-1 mx-auto bg-[#3b82f6] rounded"></div>
-          <p className="text-base sm:text-lg text-[#555] max-w-2xl mx-auto">
-            Let’s connect! Whether you have a project in mind, want to collaborate, or just say hello — I’d love to hear from you.
-          </p>
         </div>
 
         {/* Contact Cards */}
@@ -50,7 +47,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="text-[#3b82f6] hover:underline text-base"
               >
-                linkedin.com/in/yourprofile
+                linkedin.com/in/jenishaadhikari
               </a>
             </div>
           </div>
