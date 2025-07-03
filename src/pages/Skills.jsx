@@ -1,3 +1,5 @@
+import resumePDF from '../assets/Jenisha_Adhikari-CV_webdev.pdf';
+
 export default function Skills() {
   return (
     <section id="skills" className="py-20 px-6 bg-[#f3f3f3] text-[#1f1f1f]">
@@ -67,7 +69,7 @@ export default function Skills() {
         {/* Download Resume CTA */}
         <div className="text-center">
           <a
-            href="/Jenisha_Adhikari-CV_webdev.pdf"
+            href={resumePDF}
             download
             className="inline-block bg-[#3b82f6] hover:bg-[#2563eb] hover:scale-105 text-white text-xl sm:text-2xl px-6 py-3 rounded-lg font-medium transition duration-300 shadow-sm"
           >
