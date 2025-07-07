@@ -42,7 +42,7 @@ export default function Contact() {
             <div>
               <h3 className="text-xl font-semibold">LinkedIn</h3>
               <a
-                href="https://linkedin.com/in/"
+                href="https://linkedin.com/in/jenishaadhikari"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#3b82f6] hover:underline text-base"
