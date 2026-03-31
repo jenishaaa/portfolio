@@ -20,12 +20,12 @@ export default function App() {
         {/* pt-16 = navbar height */}
 
         {/* Left Sidebar - Hero */}
-        <div className="w-full md:w-1/3 md:sticky md:top-16 h-screen bg-[#f0f4ef] flex flex-col justify-between items-center px-6 py-12">
-          <Hero />
-        </div>
+      <div className="w-full md:w-[500px] md:sticky md:top-20 h-fit flex justify-center px-4 py-8 ml-4 md:ml-6">
+        <Hero />
+      </div>
 
         {/* Right Side - Other Sections */}
-        <div className="w-full md:w-2/3 px-6 py-12 space-y-20">
+        <div className="flex-1 px-6 py-12 space-y-20">
           <Intro />
           <Projects /> 
           <Tools />    
@@ -39,29 +39,3 @@ export default function App() {
     </>
   );
 }
-
-// import Navbar from './components/Navbar';
-// import Hero from './components/Hero';
-// import About from './pages/About';
-// import Skills from './pages/Skills';
-// import Trainings from './pages/Trainings';
-// import Projects from './pages/Projects';
-// import Contact from './pages/Contact';
-// import Footer from './components/Footer';
-
-// export default function App() {
-//   return (
-//     <>
-//       <Navbar />
-//       <main>
-//         <Hero />
-//         <About />
-//         <Skills />
-//         <Trainings />
-//         <Projects />
-//         <Contact />
-//       </main>
-//       <Footer />
-//     </>
-//   );
-// }

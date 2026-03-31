@@ -1,4 +1,3 @@
-// Intro.jsx
 import { useState, useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -41,49 +40,22 @@ export default function Intro() {
         {displayText}
         <span className="animate-pulse">|</span>
       </h1>
-
+        <br></br>
+        <br></br>
       {/* Short Description */}
       <p className="text-xl sm:text-2xl text-[#0d1821] font-medium text-center max-w-2xl mb-8">
         I build modern, responsive, and interactive web applications using React, Tailwind, and Vite.
       </p>
+        <br></br>
+        
 
       {/* CTA Button */}
       <a
         href="#projects"
-        className="inline-flex items-center bg-[#344966] text-[#f0f4ef] font-semibold px-8 py-4 rounded-lg hover:bg-[#b4cded] hover:text-black transition-colors"
+        className="inline-flex items-center bg-[#344966] text-[#f0f4ef] font-bold px-8 py-4 rounded-lg hover:bg-[#b4cded] hover:text-black transition-colors"
       >
         View Projects <FaArrowRight className="ml-3" />
       </a>
     </section>
   );
 }
-
-// import { FaArrowRight } from "react-icons/fa";
-// import { Link } from "react-scroll"; 
-
-// export default function Intro() {
-//   return (
-//     <section className="bg-[#344966] text-[#f0f4ef] rounded-xl p-8 mx-auto max-w-5xl shadow-lg flex flex-col md:flex-row items-center justify-between gap-6 my-12">
-      
-//       {/* Left: Intro text */}
-//       <div className="space-y-3 text-center md:text-left">
-//         <h3 className="text-2xl sm:text-3xl font-bold">Front-End Web Developer</h3>
-//         <p className="text-lg sm:text-xl">
-//           I build modern, responsive, and interactive web applications using React, Tailwind, and Vite.
-//         </p>
-//       </div>
-
-//       {/* Right: CTA button */}
-//       <div>
-//         <Link
-//           to="projects"
-//           smooth={true}
-//           className="inline-flex items-center bg-[#b4cded] text-[#0d1821] font-semibold px-6 py-3 rounded-lg hover:bg-[#f0f4ef] hover:text-[#344966] transition cursor-pointer"
-//         >
-//           View Projects <FaArrowRight className="ml-2" />
-//         </Link>
-//       </div>
-
-//     </section>
-//   );
-// }
