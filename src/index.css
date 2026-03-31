@@ -5,7 +5,6 @@ html {
 }
 
 html, body, #root {
-  background-color: #f3f3f3; 
+  background-color: #f0f4ef; 
   min-height: 100%;
 }
-
